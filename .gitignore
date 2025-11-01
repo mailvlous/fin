@@ -1,0 +1,3 @@
+# Project exclude paths
+/languages/fin/classes_gen/
+/languages/fin/generator/classes_gen/
