@@ -118,7 +118,7 @@
     </node>
     <node concept="1TJgyi" id="1CJpqL1V85N" role="1TKVEl">
       <property role="IQ2nx" value="1886838559406326131" />
-      <property role="TrG5h" value="name" />
+      <property role="TrG5h" value="nama" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="1CJpqL1V85C" role="1TKVEl">

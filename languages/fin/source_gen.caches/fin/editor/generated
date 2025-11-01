@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-6vqyhnwgbiaswoudcz9ksimwv8in0a0" />
+<product version="3" modelHash="34zkj0trk5w4wgoeq4slzptbvuitqre">
+  <files names="Account_Editor.java:Account_EditorBuilder_a.java:Budget_Editor.java:Budget_EditorBuilder_a.java:Budget_SubstituteMenu.java:Category_Editor.java:Category_EditorBuilder_a.java:EditorAspectDescriptorImpl.java:FinanceApp_Editor.java:FinanceApp_EditorBuilder_a.java:Goal_Editor.java:Goal_EditorBuilder_a.java:Goal_SubstituteMenu.java:Report_Editor.java:Report_EditorBuilder_a.java:Rule_Editor.java:Rule_EditorBuilder_a.java:Transaction_Editor.java:Transaction_EditorBuilder_a.java" />
+</product>
 

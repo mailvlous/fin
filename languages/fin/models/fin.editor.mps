@@ -69,7 +69,7 @@
         </node>
       </node>
       <node concept="3F0A7n" id="3BIDOiFwPtM" role="3EZMnx">
-        <ref role="1NtTu8" to="zzp0:1CJpqL1V85N" resolve="name" />
+        <ref role="1NtTu8" to="zzp0:1CJpqL1V85N" resolve="nama" />
         <node concept="ljvvj" id="3BIDOiFwPtN" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
