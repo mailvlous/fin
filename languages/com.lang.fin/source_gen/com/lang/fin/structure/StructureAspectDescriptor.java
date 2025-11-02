@@ -4,15 +4,29 @@ package com.lang.fin.structure;
 
 import jetbrains.mps.smodel.runtime.BaseStructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptDescriptor;
+import jetbrains.mps.smodel.runtime.EnumerationDescriptor;
 import java.util.Collection;
 import java.util.Arrays;
 import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.smodel.adapter.ids.SConceptId;
+import jetbrains.mps.smodel.runtime.DataTypeDescriptor;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.impl.ConceptDescriptorBuilder2;
+import jetbrains.mps.smodel.adapter.ids.PrimitiveTypeId;
+import jetbrains.mps.smodel.adapter.ids.MetaIdFactory;
 
 public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
+  /*package*/ final ConceptDescriptor myConceptAccount = createDescriptorForAccount();
+  /*package*/ final ConceptDescriptor myConceptBudget = createDescriptorForBudget();
+  /*package*/ final ConceptDescriptor myConceptCategory = createDescriptorForCategory();
   /*package*/ final ConceptDescriptor myConceptFinanceApp = createDescriptorForFinanceApp();
+  /*package*/ final ConceptDescriptor myConceptGoal = createDescriptorForGoal();
+  /*package*/ final ConceptDescriptor myConceptReport = createDescriptorForReport();
+  /*package*/ final ConceptDescriptor myConceptRule = createDescriptorForRule();
+  /*package*/ final ConceptDescriptor myConceptTransaction = createDescriptorForTransaction();
+  /*package*/ final EnumerationDescriptor myEnumerationBudgetPeriodType = new EnumerationDescriptor_BudgetPeriodType();
+  /*package*/ final EnumerationDescriptor myEnumerationIncomeExpenseType = new EnumerationDescriptor_IncomeExpenseType();
+  /*package*/ final EnumerationDescriptor myEnumerationReportType = new EnumerationDescriptor_ReportType();
   private final LanguageConceptSwitch myIndexSwitch;
 
   public StructureAspectDescriptor() {
@@ -27,31 +41,130 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptFinanceApp);
+    return Arrays.asList(myConceptAccount, myConceptBudget, myConceptCategory, myConceptFinanceApp, myConceptGoal, myConceptReport, myConceptRule, myConceptTransaction);
   }
 
   @Override
   @Nullable
   public ConceptDescriptor getDescriptor(SConceptId id) {
     switch (myIndexSwitch.index(id)) {
+      case LanguageConceptSwitch.Account:
+        return myConceptAccount;
+      case LanguageConceptSwitch.Budget:
+        return myConceptBudget;
+      case LanguageConceptSwitch.Category:
+        return myConceptCategory;
       case LanguageConceptSwitch.FinanceApp:
         return myConceptFinanceApp;
+      case LanguageConceptSwitch.Goal:
+        return myConceptGoal;
+      case LanguageConceptSwitch.Report:
+        return myConceptReport;
+      case LanguageConceptSwitch.Rule:
+        return myConceptRule;
+      case LanguageConceptSwitch.Transaction:
+        return myConceptTransaction;
       default:
         return null;
     }
   }
 
+  @Override
+  public Collection<DataTypeDescriptor> getDataTypeDescriptors() {
+    return Arrays.asList(myEnumerationBudgetPeriodType, myEnumerationIncomeExpenseType, myEnumerationReportType);
+  }
 
   /*package*/ int internalIndex(SAbstractConcept c) {
     return myIndexSwitch.index(c);
   }
 
+  private static ConceptDescriptor createDescriptorForAccount() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Account", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L);
+    b.class_(false, false, true);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869539");
+    b.version(3);
+    b.property("accountID", 0x7e02d173cee48a25L).type(PrimitiveTypeId.INTEGER).origin("9080050094054869541").done();
+    b.property("nama", 0x7e02d173cee48a29L).type(PrimitiveTypeId.STRING).origin("9080050094054869545").done();
+    b.property("initialBalance", 0x7e02d173cee48a2bL).type(PrimitiveTypeId.INTEGER).origin("9080050094054869547").done();
+    b.property("balance", 0x7e02d173cee48a2aL).type(PrimitiveTypeId.INTEGER).origin("9080050094054869546").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForBudget() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Budget", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a46L);
+    b.class_(false, false, false);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869574");
+    b.version(3);
+    b.property("amount", 0x7e02d173cee48a48L).type(PrimitiveTypeId.INTEGER).origin("9080050094054869576").done();
+    b.property("period", 0x7e02d173cee48a49L).type(MetaIdFactory.dataTypeId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a13L)).origin("9080050094054869577").done();
+    b.aggregate("category", 0x7e02d173cee48a4dL).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL).optional(true).ordered(true).multiple(false).origin("9080050094054869581").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForCategory() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Category", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL);
+    b.class_(false, false, false);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869551");
+    b.version(3);
+    b.property("nama", 0x7e02d173cee48a31L).type(PrimitiveTypeId.STRING).origin("9080050094054869553").done();
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForFinanceApp() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "FinanceApp", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0xb57903fec71c18L);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/51080028850953240");
     b.version(3);
+    b.property("appName", 0x7e02d173cee7fc7fL).type(PrimitiveTypeId.STRING).origin("9080050094055095423").done();
+    b.aggregate("accounts", 0x7e02d173cee7fc6dL).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L).optional(true).ordered(true).multiple(true).origin("9080050094055095405").done();
+    b.aggregate("categories", 0x7e02d173cee7fc70L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL).optional(true).ordered(true).multiple(true).origin("9080050094055095408").done();
+    b.aggregate("transactions", 0x7e02d173cee7fc72L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a32L).optional(true).ordered(true).multiple(true).origin("9080050094055095410").done();
+    b.aggregate("budgets", 0x7e02d173cee7fc75L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a46L).optional(true).ordered(true).multiple(true).origin("9080050094055095413").done();
+    b.aggregate("reports", 0x7e02d173cee7fc77L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a5cL).optional(true).ordered(true).multiple(true).origin("9080050094055095415").done();
+    b.aggregate("goals", 0x7e02d173cee7fc79L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a4fL).optional(true).ordered(true).multiple(true).origin("9080050094055095417").done();
+    b.aggregate("rules", 0x7e02d173cee7fc7bL).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a67L).optional(true).ordered(true).multiple(true).origin("9080050094055095419").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForGoal() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Goal", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a4fL);
+    b.class_(false, false, false);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869583");
+    b.version(3);
+    b.property("targetAmount", 0x7e02d173cee48a51L).type(PrimitiveTypeId.INTEGER).origin("9080050094054869585").done();
+    b.property("deadline", 0x7e02d173cee48a52L).type(PrimitiveTypeId.STRING).origin("9080050094054869586").done();
+    b.aggregate("account", 0x7e02d173cee48a56L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L).optional(true).ordered(true).multiple(false).origin("9080050094054869590").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForReport() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Report", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a5cL);
+    b.class_(false, false, false);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869596");
+    b.version(3);
+    b.property("type", 0x7e02d173cee48a5eL).type(MetaIdFactory.dataTypeId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a1bL)).origin("9080050094054869598").done();
+    b.aggregate("account", 0x7e02d173cee48a61L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L).optional(true).ordered(true).multiple(false).origin("9080050094054869601").done();
+    b.aggregate("category", 0x7e02d173cee48a63L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL).optional(true).ordered(true).multiple(false).origin("9080050094054869603").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForRule() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Rule", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a67L);
+    b.class_(false, false, false);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869607");
+    b.version(3);
+    b.property("condition", 0x7e02d173cee48a69L).type(PrimitiveTypeId.STRING).origin("9080050094054869609").done();
+    b.property("action", 0x7e02d173cee48a6bL).type(PrimitiveTypeId.STRING).origin("9080050094054869611").done();
+    b.aggregate("account", 0x7e02d173cee48a71L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L).optional(true).ordered(true).multiple(false).origin("9080050094054869617").done();
+    b.aggregate("category", 0x7e02d173cee48a72L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL).optional(true).ordered(true).multiple(false).origin("9080050094054869618").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForTransaction() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Transaction", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a32L);
+    b.class_(false, false, false);
+    b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869554");
+    b.version(3);
+    b.property("type", 0x7e02d173cee48a35L).type(MetaIdFactory.dataTypeId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a0bL)).origin("9080050094054869557").done();
+    b.property("amount", 0x7e02d173cee48a37L).type(PrimitiveTypeId.INTEGER).origin("9080050094054869559").done();
+    b.property("date", 0x7e02d173cee48a39L).type(PrimitiveTypeId.STRING).origin("9080050094054869561").done();
+    b.aggregate("fromAccount", 0x7e02d173cee48a3fL).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L).optional(true).ordered(true).multiple(false).origin("9080050094054869567").done();
+    b.aggregate("toAccount", 0x7e02d173cee48a41L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L).optional(true).ordered(true).multiple(false).origin("9080050094054869569").done();
+    b.aggregate("category", 0x7e02d173cee48a44L).target(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL).optional(true).ordered(true).multiple(false).origin("9080050094054869572").done();
     return b.create();
   }
 }

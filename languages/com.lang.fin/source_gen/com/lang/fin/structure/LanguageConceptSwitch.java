@@ -9,11 +9,25 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int FinanceApp = 0;
+  public static final int Account = 0;
+  public static final int Budget = 1;
+  public static final int Category = 2;
+  public static final int FinanceApp = 3;
+  public static final int Goal = 4;
+  public static final int Report = 5;
+  public static final int Rule = 6;
+  public static final int Transaction = 7;
 
   public LanguageConceptSwitch() {
     LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xd98c583388c34391L, 0x9525d7b106fd1bcbL);
+    builder.put(0x7e02d173cee48a23L, Account);
+    builder.put(0x7e02d173cee48a46L, Budget);
+    builder.put(0x7e02d173cee48a2fL, Category);
     builder.put(0xb57903fec71c18L, FinanceApp);
+    builder.put(0x7e02d173cee48a4fL, Goal);
+    builder.put(0x7e02d173cee48a5cL, Report);
+    builder.put(0x7e02d173cee48a67L, Rule);
+    builder.put(0x7e02d173cee48a32L, Transaction);
     myIndex = builder.seal();
   }
 

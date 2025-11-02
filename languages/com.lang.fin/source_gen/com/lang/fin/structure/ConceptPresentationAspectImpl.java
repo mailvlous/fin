@@ -9,13 +9,41 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
+  private ConceptPresentation props_Account;
+  private ConceptPresentation props_Budget;
+  private ConceptPresentation props_Category;
   private ConceptPresentation props_FinanceApp;
+  private ConceptPresentation props_Goal;
+  private ConceptPresentation props_Report;
+  private ConceptPresentation props_Rule;
+  private ConceptPresentation props_Transaction;
 
   @Override
   @Nullable
   public ConceptPresentation getDescriptor(SAbstractConcept c) {
     StructureAspectDescriptor structureDescriptor = (StructureAspectDescriptor) myLanguageRuntime.getAspect(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.class);
     switch (structureDescriptor.internalIndex(c)) {
+      case LanguageConceptSwitch.Account:
+        if (props_Account == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Account");
+          props_Account = cpb.create();
+        }
+        return props_Account;
+      case LanguageConceptSwitch.Budget:
+        if (props_Budget == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Budget");
+          props_Budget = cpb.create();
+        }
+        return props_Budget;
+      case LanguageConceptSwitch.Category:
+        if (props_Category == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Category");
+          props_Category = cpb.create();
+        }
+        return props_Category;
       case LanguageConceptSwitch.FinanceApp:
         if (props_FinanceApp == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -23,6 +51,34 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_FinanceApp = cpb.create();
         }
         return props_FinanceApp;
+      case LanguageConceptSwitch.Goal:
+        if (props_Goal == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Goal");
+          props_Goal = cpb.create();
+        }
+        return props_Goal;
+      case LanguageConceptSwitch.Report:
+        if (props_Report == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Report");
+          props_Report = cpb.create();
+        }
+        return props_Report;
+      case LanguageConceptSwitch.Rule:
+        if (props_Rule == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Rule");
+          props_Rule = cpb.create();
+        }
+        return props_Rule;
+      case LanguageConceptSwitch.Transaction:
+        if (props_Transaction == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Transaction");
+          props_Transaction = cpb.create();
+        }
+        return props_Transaction;
     }
     return null;
   }

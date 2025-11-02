@@ -9,7 +9,16 @@
   </imports>
   <registry>
     <language id="d98c5833-88c3-4391-9525-d7b106fd1bcb" name="com.lang.fin">
-      <concept id="51080028850953240" name="com.lang.fin.structure.FinanceApp" flags="ng" index="3YsAkr" />
+      <concept id="9080050094054869539" name="com.lang.fin.structure.Account" flags="ng" index="2KT_Hg">
+        <property id="9080050094054869541" name="accountID" index="2KT_Hm" />
+        <property id="9080050094054869547" name="initialBalance" index="2KT_Ho" />
+        <property id="9080050094054869546" name="balance" index="2KT_Hp" />
+        <property id="9080050094054869545" name="nama" index="2KT_Hq" />
+      </concept>
+      <concept id="51080028850953240" name="com.lang.fin.structure.FinanceApp" flags="ng" index="3YsAkr">
+        <property id="9080050094055095423" name="appName" index="2KTiOc" />
+        <child id="9080050094055095405" name="accounts" index="2KTiOu" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
@@ -17,11 +26,15 @@
       </concept>
     </language>
   </registry>
-  <node concept="3YsAkr" id="563DfIRFuPK">
+  <node concept="3YsAkr" id="7S2OnfeW2BR">
+    <property role="2KTiOc" value="MYAPP" />
     <property role="TrG5h" value="mail" />
-  </node>
-  <node concept="3YsAkr" id="563DfIRFwfs">
-    <property role="TrG5h" value="mail1" />
+    <node concept="2KT_Hg" id="7S2OnfeW2BS" role="2KTiOu">
+      <property role="2KT_Hm" value="2" />
+      <property role="2KT_Hq" value="mail" />
+      <property role="2KT_Ho" value="0" />
+      <property role="2KT_Hp" value="9000000" />
+    </node>
   </node>
 </model>
 

@@ -18,6 +18,8 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
     SAbstractConcept cncpt = ((SAbstractConcept) concept);
     switch (conceptIndex.index(cncpt)) {
       case 0:
+        return Collections.<ConceptEditor>singletonList(new Account_Editor());
+      case 1:
         return Collections.<ConceptEditor>singletonList(new FinanceApp_Editor());
       default:
     }
@@ -26,5 +28,5 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
 
 
 
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0xb57903fec71c18L)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a23L), MetaIdFactory.conceptId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0xb57903fec71c18L)).seal();
 }
