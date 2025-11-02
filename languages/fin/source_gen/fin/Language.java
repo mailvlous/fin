@@ -7,9 +7,6 @@ import jetbrains.mps.smodel.adapter.ids.SLanguageId;
 import java.util.Collection;
 import org.jetbrains.mps.openapi.language.SLanguage;
 import jetbrains.mps.smodel.runtime.ILanguageAspect;
-import jetbrains.mps.smodel.runtime.ConstraintsAspectDescriptor;
-import jetbrains.mps.openapi.editor.descriptor.EditorAspectDescriptor;
-import fin.editor.EditorAspectDescriptorImpl;
 import jetbrains.mps.smodel.runtime.StructureAspectDescriptor;
 import jetbrains.mps.smodel.runtime.ConceptPresentationAspect;
 import fin.structure.ConceptPresentationAspectImpl;
@@ -20,7 +17,7 @@ public class Language extends LanguageRuntime {
   private final SLanguageId myId;
 
   public Language() {
-    myId = SLanguageId.deserialize("c7531785-57a4-4307-8579-6e2161aea2b8");
+    myId = SLanguageId.deserialize("75aa8ca7-daea-4300-9cd1-372d8de854d7");
   }
 
   @Override
@@ -43,12 +40,6 @@ public class Language extends LanguageRuntime {
 
   @Override
   protected <T extends ILanguageAspect> T createAspect(Class<T> aspectClass) {
-    if (aspectClass == ConstraintsAspectDescriptor.class) {
-      return aspectClass.cast(new fin.constraints.ConstraintsAspectDescriptor());
-    }
-    if (aspectClass == EditorAspectDescriptor.class) {
-      return aspectClass.cast(new EditorAspectDescriptorImpl());
-    }
     if (aspectClass == StructureAspectDescriptor.class) {
       return aspectClass.cast(new fin.structure.StructureAspectDescriptor());
     }

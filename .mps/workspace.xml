@@ -1,0 +1,1082 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4f073ff-92bd-4956-9223-8314bde5beaf" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/migration.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/migration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mps/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin.sandbox/fin.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin.sandbox/fin.sandbox.msd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin.sandbox/models/fin.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin.sandbox/models/fin.sandbox.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/fin.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/fin.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/deps.cp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/fin/generator/dependencies" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/fin/generator/generated" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/fin/generator/templates/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/fin/generator/templates/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/fin/generator/templates/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/generator/source_gen.caches/fin/generator/templates/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen/fin/generator/Generator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen/fin/generator/templates/QueriesGenerated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen/fin/generator/templates/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/source_gen/fin/generator/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/generator/templates/fin.generator.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/generator/templates/fin.generator.templates@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/models/fin.behavior.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/models/fin.behavior.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/models/fin.constraints.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/models/fin.constraints.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/models/fin.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/models/fin.editor.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/models/fin.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/models/fin.structure.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/models/fin.typesystem.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/models/fin.typesystem.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/deps.cp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/behavior/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/behavior/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/constraints/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/constraints/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/constraints/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/constraints/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/editor/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/structure/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/typesystem/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen.caches/fin/typesystem/generated" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/Language.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/Budget_Constraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/ConstraintsAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/ConstraintsAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/Transaction_Constraints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Account_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Account_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Budget_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Budget_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Budget_SubstituteMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Category_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Category_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/EditorAspectDescriptorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/FinanceApp_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/FinanceApp_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Goal_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Goal_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Goal_SubstituteMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Report_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Report_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Rule_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Rule_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Transaction_Editor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/Transaction_EditorBuilder_a.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/editor/trace.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/ConceptPresentationAspectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/ConceptPresentationAspectImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/EnumerationDescriptor_BudgetPeriodType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/EnumerationDescriptor_IncomeExpenseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/EnumerationDescriptor_ReportType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/LanguageConceptSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/LanguageConceptSwitch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/structure/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/fin/source_gen/fin/typesystem/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/fin/source_gen/fin/typesystem/aspectcps-descriptorclasses.mps" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ConsoleHistory">
+    <option name="tabs">
+      <list>
+        <TabState>
+          <option name="title" value="Console" />
+          <tab>
+            <model ref="82de422d-a93c-483f-9282-408120e5e408/r:bb48af17-fe7f-435a-855b-ed6ceeb0cf83(TempModule82de422d-a93c-483f-9282-408120e5e408/ConsoleModel_396085421011600)">
+              <persistence version="9" />
+              <languages>
+                <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
+              </languages>
+              <imports />
+              <registry>
+                <language id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base">
+                  <concept id="1583916890557930028" name="jetbrains.mps.console.base.structure.ConsoleRoot" flags="ng" index="aymSD">
+                    <child id="1583916890557930415" name="history" index="aymYE" />
+                    <child id="1583916890557930417" name="commandHolder" index="aymYO" />
+                    <child id="9025248442620242919" name="cursor" index="1PhJh3" />
+                  </concept>
+                  <concept id="5758176878586720817" name="jetbrains.mps.console.base.structure.CommandHolderRef" flags="ng" index="2_V_lH">
+                    <reference id="5758176878586720818" name="target" index="2_V_lI" />
+                  </concept>
+                  <concept id="351968380916615243" name="jetbrains.mps.console.base.structure.CommandHolder" flags="ng" index="2Clz$F" />
+                  <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
+                </language>
+              </registry>
+              <node concept="aymSD" id="563DfIRF0Ae">
+                <node concept="3balQm" id="563DfIRF0Af" role="aymYE" />
+                <node concept="2Clz$F" id="563DfIRF0Ag" role="aymYO" />
+                <node concept="2_V_lH" id="563DfIRF0Ah" role="1PhJh3">
+                  <ref role="2_V_lI" node="563DfIRF0Ag" />
+                </node>
+              </node>
+            </model>
+          </tab>
+        </TabState>
+      </list>
+    </option>
+  </component>
+  <component name="DefaultSearchOptions3">
+    <search_options>
+      <finders>
+        <finders />
+      </finders>
+      <scope>
+        <scope_type scope_type="PROJECT" module="&lt;default&gt;" model="&lt;default&gt;" />
+      </scope>
+      <view>
+        <flags show_one_result="true" new_tab="false" />
+      </view>
+    </search_options>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mailvlous&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mailvlous/fin.git&quot;,
+    &quot;accountId&quot;: &quot;4eb765d7-a1ab-45e3-9c6e-2b310b1fa857&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="previewfin.sandbox/TextGen" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MPSBookmarkManager">
+    <option name="myBookmarkInfos">
+      <array>
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+        <BookmarkInfo />
+      </array>
+    </option>
+  </component>
+  <component name="MessagesViewTool">
+    <option name="defaultListState">
+      <MessageListState>
+        <option name="autoscrollToSource" value="true" />
+        <option name="info" value="true" />
+        <option name="warnings" value="true" />
+      </MessageListState>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="34si0m0RdQ9rYVu6LDqmqGU0q1M" />
+  <component name="ProjectPluginManager">
+    <option name="pluginsState">
+      <option name="jetbrains.mps.ide.actions.Ide_ProjectPlugin">
+        <value>
+          <PluginState>
+            <option name="myComponentsState">
+              <list>
+                <ComponentState>
+                  <option name="first" value="jetbrains.mps.ide.actions.BehaviorDialogsPersistentOptions_PreferencesComponent" />
+                  <params>
+                    <option name="addReturnsOnImplement" value="false" />
+                    <option name="sortAlphabetically" value="false" />
+                    <option name="removeAttributes" value="true" />
+                  </params>
+                </ComponentState>
+              </list>
+            </option>
+          </PluginState>
+        </value>
+      </option>
+    </option>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Solutions'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Solutions'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              <item name="'com.lang.fin'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Solutions'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              <item name="'com.lang.fin'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="com.lang.fin.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Solutions'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              <item name="'com.lang.fin'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="com.lang.fin.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'com.lang.fin'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Solutions'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              <item name="'com.lang.fin'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="com.lang.fin.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+              <item name="'com.lang.fin'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+              <item name="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin.sandbox/models/com.lang.fin.sandbox.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Languages'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Languages'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              <item name="'com.lang'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <item name="'Languages'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              <item name="'com.lang'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+              <item name="com.lang.fin [language]" type="cd46e9f6:LanguageProjectViewNode" />
+            </path>
+            <path>
+              <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+              <item name="'Checkpoints and Transient Models'" type="62004a8a:TopHierarchyProjectViewNode$TransientsProjectViewNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data isLeaf="false" text="" />
+            <item name="" type="a3d0baea:RootLogicalProjectViewNode" />
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/homeFolder.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+              <item name="MPS Project [fin] " type="2ccce88f:TopHierarchyProjectViewNode$TopProjectViewNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/moduleGroup.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+              <item name="'Modules Pool'" type="4e60a945:TopHierarchyProjectViewNode$ModulesPoolProjectViewNode" />
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+                <item name="'Solutions'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="closures" />
+                  <item name="'closures'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="collections" />
+                  <item name="'collections'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="collections_trove" />
+                  <item name="'collections_trove'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin" />
+                  <item name="'com.lang.fin'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                  <presentation>
+                    <attributes />
+                    <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin.sandbox" />
+                    <item name="com.lang.fin.sandbox [solution]" type="97b3832:SolutionProjectViewNode" />
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin" />
+                      <item name="'com.lang.fin'" type="3ff8ed02:BaseVirtualFolderProjectViewNode$ModelsVirtualFolderProjectViewNode" />
+                      <presentation>
+                        <attributes />
+                        <data iconPath="expUi/nodes/model.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+                        <item name="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin.sandbox/models/com.lang.fin.sandbox.mps]" type="150f8c45:ModelHierarchyProjectViewNode" />
+                        <presentation>
+                          <attributes />
+                          <data iconPath="expUi/nodes/rootNode.svg" iconPlugin="com.intellij" isLeaf="true" text="mail" />
+                          <item name="mail" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expUi/nodes/models/tests.svg" iconPlugin="com.intellij" isLeaf="false" text="tests" />
+                      <item name="tests" type="f50bce0e:SolutionProjectViewNode$TestsProjectViewNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="jetbrains" />
+                  <item name="'jetbrains'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="MPS" />
+                  <item name="'MPS'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="Annotations" />
+                  <item name="Annotations [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="Ant" />
+                  <item name="Ant [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="DiffUtils" />
+                  <item name="DiffUtils [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="JAXB" />
+                  <item name="JAXB [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="JDK" />
+                  <item name="JDK [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="JDK-tools" />
+                  <item name="JDK-tools [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="JUnit" />
+                  <item name="JUnit [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="Testbench" />
+                  <item name="Testbench [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="false" text="typesystemIntegration" />
+                  <item name="typesystemIntegration [solution]" type="97b3832:SolutionProjectViewNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+                <item name="'Languages'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang" />
+                  <item name="'com.lang'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                  <presentation>
+                    <attributes />
+                    <data iconPath="expUi/nodes/language.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin" />
+                    <item name="com.lang.fin [language]" type="cd46e9f6:LanguageProjectViewNode" />
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="false" text="structure" />
+                      <item name="r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin/models/com.lang.fin.structure.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="false" text="editor" />
+                      <item name="r:ac4b2dbd-f3bb-4251-93ae-d7d0851c3b85(com.lang.fin.editor) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin/models/com.lang.fin.editor.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="true" text="constraints" />
+                      <item name="r:8b59b547-2552-4fd7-b16f-c859dc4cf947(com.lang.fin.constraints) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin/models/com.lang.fin.constraints.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="true" text="behavior" />
+                      <item name="r:aca2f866-5729-4b1f-a3b2-f45db8e7f938(com.lang.fin.behavior) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin/models/com.lang.fin.behavior.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data isLeaf="true" text="typesystem" />
+                      <item name="r:0371115e-d008-4fb9-91f1-1c7b0f4b96d3(com.lang.fin.typesystem) in IdeaFile[path: C:/Users/LENOVO/MPSProjects/fin/languages/com.lang.fin/models/com.lang.fin.typesystem.mps]" type="79b3f1f3:LanguageProjectViewNode$LanguageAspectProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expUi/nodes/generator.svg" iconPlugin="com.intellij" isLeaf="false" text="generator/com.lang.fin/main" />
+                      <item name="com.lang.fin/main [generator]" type="1a1cc504:GeneratorProjectViewNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes />
+                      <data iconPath="expui/nodes/moduleGroup.svg" iconPlugin="com.intellij" isLeaf="false" text="all models" />
+                      <item name="all models" type="29437f5f:LanguageProjectViewNode$LanguageAllModelsProjectViewNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes />
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="jetbrains.mps" />
+                  <item name="'jetbrains.mps'" type="5f4f26e3:BaseVirtualFolderProjectViewNode$ModulesVirtualFolderProjectViewNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+                <item name="'DevKits'" type="d3198fd0:TopHierarchyProjectViewNode$ModulesPoolFolderProjectViewNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="" />
+              <item name="'Checkpoints and Transient Models'" type="62004a8a:TopHierarchyProjectViewNode$TransientsProjectViewNode" />
+              <presentation>
+                <attributes />
+                <data iconPath="expUi/nodes/transient.svg" iconPlugin="com.intellij" isLeaf="false" text="checkpoints" />
+                <item name="checkpoints [transient models module]" type="da8cad93:TopHierarchyProjectViewNode$TransientModuleProjectViewNode" />
+              </presentation>
+              <presentation>
+                <attributes />
+                <data iconPath="expUi/nodes/transient.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin.sandbox@transient24" />
+                <item name="com.lang.fin.sandbox@transient24 [transient models module]" type="da8cad93:TopHierarchyProjectViewNode$TransientModuleProjectViewNode" />
+              </presentation>
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Scratches and Consoles'; set:Scratches and Consoles; class com.intellij.ide.scratch.ScratchesNamedScope">
+          <expand>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Extensions" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Extensions" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="MPS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/runConfigurations/application.svg" iconPlugin="com.intellij" isLeaf="false" text="fin" />
+            <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$APPLICATION_CONFIG_DIR$/extensions" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Extensions" />
+              <item name="Extensions" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$APPLICATION_CONFIG_DIR$/extensions/com.intellij" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="MPS" />
+                <item name="MPS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$APPLICATION_CONFIG_DIR$/extensions/com.intellij/predefinedExternalAnnotations.json" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="predefinedExternalAnnotations.json" />
+                  <item name="predefinedExternalAnnotations.json" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+            </presentation>
+          </presentation>
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="classes_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="classes_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin.sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin.sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source_gen.caches" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin.sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source_gen.caches" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin.sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="source_gen.caches" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/runConfigurations/application.svg" iconPlugin="com.intellij" isLeaf="false" text="fin" />
+            <item name="fin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="C:\Users\LENOVO\MPSProjects\fin" />
+              <item name="C:\Users\LENOVO\MPSProjects\fin" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.mps" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".mps" />
+                <item name=".mps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/languages" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="languages" />
+                <item name="languages" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/languages/fin" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fin" />
+                  <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="classes_gen" />
+                    <item name="classes_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen/fin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="fin" />
+                      <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen/fin/constraints" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="constraints" />
+                        <item name="constraints" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen/fin/structure" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="structure" />
+                        <item name="structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen/fin/typesystem" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="typesystem" />
+                        <item name="typesystem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen/fin/Language.class" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/fileTypes/javaClass.svg" iconPlugin="com.intellij" isLeaf="true" text="Language.class" />
+                        <item name="Language.class" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/classes_gen/fin/trace.info" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="trace.info" />
+                        <item name="trace.info" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin/generator" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="generator" />
+                    <item name="generator" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin/models" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
+                    <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="source_gen" />
+                    <item name="source_gen" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen/fin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fin" />
+                      <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen/fin/constraints" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="constraints" />
+                        <item name="constraints" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen/fin/structure" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="structure" />
+                        <item name="structure" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen/fin/typesystem" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="typesystem" />
+                        <item name="typesystem" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen/fin/Language.java" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/fileTypes/java.svg" iconPlugin="com.intellij" isLeaf="true" text="Language.java" />
+                        <item name="Language.java" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen/fin/trace.info" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="trace.info" />
+                        <item name="trace.info" type="ab9368bb:PsiFileNode" />
+                      </presentation>
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin/source_gen.caches" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="source_gen.caches" />
+                    <item name="source_gen.caches" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin/fin.mpl" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expUi/nodes/language.svg" iconPlugin="com.intellij" isLeaf="true" text="fin.mpl" />
+                    <item name="fin.mpl" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/languages/fin.runtime" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fin.runtime" />
+                  <item name="fin.runtime" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fin.sandbox" />
+                  <item name="fin.sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/models" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
+                    <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="source_gen.caches" />
+                    <item name="source_gen.caches" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches/fin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="fin" />
+                      <item name="fin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches/fin/main" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="main" />
+                        <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches/fin/sandbox" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="sandbox" />
+                        <item name="sandbox" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches/fin/sandbox/dependencies" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="dependencies" />
+                          <item name="dependencies" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches/fin/sandbox/generated" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="generated" />
+                          <item name="generated" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/source_gen.caches/deps.cp" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="deps.cp" />
+                      <item name="deps.cp" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/languages/fin.sandbox/fin.sandbox.msd" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expUi/nodes/solution.svg" iconPlugin="com.intellij" isLeaf="true" text="fin.sandbox.msd" />
+                    <item name="fin.sandbox.msd" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/solutions" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="solutions" />
+                <item name="solutions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$APPLICATION_CONFIG_DIR$/extensions" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Extensions" />
+              <item name="Extensions" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="FileSystem">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fin" type="cbb8eebc:String" />
+            </path>
+            <path>
+              <item name="fin" type="cbb8eebc:String" />
+              <item name="fin.sandbox" type="cbb8eebc:String" />
+            </path>
+            <path>
+              <item name="fin" type="cbb8eebc:String" />
+              <item name="fin.sandbox" type="cbb8eebc:String" />
+              <item name="fin.sandbox" type="cbb8eebc:String" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit Tests.Tests in 'fin.sandbox'.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit Tests.Tests in 'fin.generator'">
+    <configuration name="Tests in 'fin.generator'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" />
+          <option name="myModuleRef" value="f2f82385-91ee-484c-891c-14b121d51584(fin.generator)" />
+          <option name="myInProcess" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="C:\Users\LENOVO\AppData\Roaming\JetBrains\MPSJUnitRC0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="1" />
+          <option name="myRunType2InProcess">
+            <InProcessFlagPerScope>
+              <option name="runType2InProcessFlag">
+                <map />
+              </option>
+            </InProcessFlagPerScope>
+          </option>
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" />
+              <option name="programParameters" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" value="-ea" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2025.2" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests in 'fin.sandbox'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
+      <myJUnitSettings>
+        <MyState>
+          <option name="myModelRef" value="r:7e60425a-1463-4b01-a019-824c6ddf57cf(fin.sandbox)" />
+          <option name="myModuleRef" value="d16f12f2-8952-46cc-ac74-b498f866f2d4(fin.sandbox)" />
+          <option name="myInProcess" value="true" />
+          <option name="myReuseCaches" value="true" />
+          <option name="myOverrideCachesLocation" value="false" />
+          <option name="myDebug" value="false" />
+          <option name="myCachesPath" value="C:\Users\LENOVO\AppData\Roaming\JetBrains\MPSJUnitRC0" />
+          <option name="myTestCases">
+            <list />
+          </option>
+          <option name="myTestMethods">
+            <list />
+          </option>
+          <option name="myRunType" value="2" />
+          <option name="myRunType2InProcess">
+            <InProcessFlagPerScope>
+              <option name="runType2InProcessFlag">
+                <map>
+                  <entry key="0" value="true" />
+                  <entry key="1" value="true" />
+                  <entry key="2" value="true" />
+                  <entry key="3" value="true" />
+                  <entry key="4" value="true" />
+                </map>
+              </option>
+            </InProcessFlagPerScope>
+          </option>
+        </MyState>
+      </myJUnitSettings>
+      <myJavaRunParameters>
+        <MyState>
+          <option name="myJavaParameters">
+            <JavaRunParameters>
+              <option name="jrePath" value="" />
+              <option name="programParameters" value="" />
+              <option name="useAlternativeJre" value="false" />
+              <option name="vmOptions" value="-ea" />
+              <option name="workingDirectory" value="C:\Program Files\JetBrains\MPS 2025.2" />
+            </JavaRunParameters>
+          </option>
+        </MyState>
+      </myJavaRunParameters>
+      <myDeploySettings>
+        <MyState>
+          <option name="myPluginsToDeploy">
+            <list />
+          </option>
+        </MyState>
+      </myDeploySettings>
+      <method v="2">
+        <option name="jetbrains.mps.execution.configurations.implementation.plugin.plugin.AssemblePluginsBeforeTask_BeforeTask" enabled="true" />
+        <option name="jetbrains.mps.execution.configurations.pluginSolution.plugin.MakeNodePointers_BeforeTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit Tests.Tests in 'fin.sandbox'" />
+        <item itemvalue="JUnit Tests.Tests in 'fin.generator'" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4f073ff-92bd-4956-9223-8314bde5beaf" name="Changes" comment="" />
+      <created>1762008462603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1762008462603</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UsagesViewTool">
+    <version id="1" />
+    <tabs />
+    <default_view_options>
+      <options category_option="false" module_option="true" model_option="true" root_option="true" path_option="false" count_option="true" info_option="true" view_searched_nodes_option="true" group_searched_nodes_option="true" autoscroll_option="false" />
+    </default_view_options>
+  </component>
+</project>

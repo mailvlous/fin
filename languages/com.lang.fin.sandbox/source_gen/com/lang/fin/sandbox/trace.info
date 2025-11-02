@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <root nodeRef="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox)/5873719740046634352">
+    <file name="FinanceAppTemplate.java">
+      <unit id="5873719740046634352" at="6,0,8,0" name="com.lang.fin.sandbox.FinanceAppTemplate" />
+    </file>
+  </root>
+  <root nodeRef="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox)/5873719740046640092">
+    <file name="FinanceAppTemplate.java">
+      <unit id="5873719740046640092" at="6,0,8,0" name="com.lang.fin.sandbox.FinanceAppTemplate" />
+    </file>
+  </root>
+</debug-info>
+

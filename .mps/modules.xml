@@ -2,8 +2,8 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
-      <modulePath path="$PROJECT_DIR$/languages/fin.sandbox/fin.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/fin/fin.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.lang.fin.sandbox/com.lang.fin.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/com.lang.fin/com.lang.fin.mpl" folder="" />
     </projectModules>
   </component>
 </project>

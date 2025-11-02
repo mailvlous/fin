@@ -9,25 +9,11 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
 
 public final class LanguageConceptSwitch {
   private final LanguageConceptIndex myIndex;
-  public static final int Account = 0;
-  public static final int Budget = 1;
-  public static final int Category = 2;
-  public static final int FinanceApp = 3;
-  public static final int Goal = 4;
-  public static final int Report = 5;
-  public static final int Rule = 6;
-  public static final int Transaction = 7;
+  public static final int FileJavaKosong = 0;
 
   public LanguageConceptSwitch() {
-    LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0xc753178557a44307L, 0x85796e2161aea2b8L);
-    builder.put(0x1a2f65ac41ec8162L, Account);
-    builder.put(0x1a2f65ac41ec819cL, Budget);
-    builder.put(0x1a2f65ac41ec8176L, Category);
-    builder.put(0x1a2f65ac41ec8157L, FinanceApp);
-    builder.put(0x1a2f65ac41ec81b3L, Goal);
-    builder.put(0x1a2f65ac41ec81bcL, Report);
-    builder.put(0x1a2f65ac41ec81cfL, Rule);
-    builder.put(0x1a2f65ac41ec817aL, Transaction);
+    LanguageConceptIndexBuilder builder = new LanguageConceptIndexBuilder(0x75aa8ca7daea4300L, 0x9cd1372d8de854d7L);
+    builder.put(0x7c393ee9e5c7286fL, FileJavaKosong);
     myIndex = builder.seal();
   }
 

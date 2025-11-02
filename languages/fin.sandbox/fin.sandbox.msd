@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="fin.sandbox" uuid="d16f12f2-8952-46cc-ac74-b498f866f2d4" moduleVersion="0">
+<solution name="fin.sandbox" uuid="30266328-0a45-458c-a001-aab36e794c16" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot path="${module}/models" />
@@ -11,11 +11,11 @@
     </facet>
   </facets>
   <languageVersions>
-    <language slang="l:c7531785-57a4-4307-8579-6e2161aea2b8:fin" version="0" />
+    <language slang="l:75aa8ca7-daea-4300-9cd1-372d8de854d7:fin" version="0" />
     <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
   </languageVersions>
   <dependencyVersions>
-    <module reference="d16f12f2-8952-46cc-ac74-b498f866f2d4(fin.sandbox)" version="0" />
+    <module reference="30266328-0a45-458c-a001-aab36e794c16(fin.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
 
