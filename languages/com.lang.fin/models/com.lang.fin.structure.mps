@@ -196,6 +196,7 @@
   <node concept="1TIwiD" id="7S2OnfeT8CJ">
     <property role="EcuMT" value="9080050094054869551" />
     <property role="TrG5h" value="Category" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7S2OnfeT8CL" role="1TKVEl">
       <property role="IQ2nx" value="9080050094054869553" />
@@ -206,6 +207,7 @@
   <node concept="1TIwiD" id="7S2OnfeT8CM">
     <property role="EcuMT" value="9080050094054869554" />
     <property role="TrG5h" value="Transaction" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7S2OnfeT8CP" role="1TKVEl">
       <property role="IQ2nx" value="9080050094054869557" />
@@ -244,6 +246,7 @@
   <node concept="1TIwiD" id="7S2OnfeT8D6">
     <property role="EcuMT" value="9080050094054869574" />
     <property role="TrG5h" value="Budget" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7S2OnfeT8D8" role="1TKVEl">
       <property role="IQ2nx" value="9080050094054869576" />
@@ -265,6 +268,7 @@
   <node concept="1TIwiD" id="7S2OnfeT8Df">
     <property role="EcuMT" value="9080050094054869583" />
     <property role="TrG5h" value="Goal" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7S2OnfeT8Dh" role="1TKVEl">
       <property role="IQ2nx" value="9080050094054869585" />
@@ -286,6 +290,7 @@
   <node concept="1TIwiD" id="7S2OnfeT8Ds">
     <property role="EcuMT" value="9080050094054869596" />
     <property role="TrG5h" value="Report" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7S2OnfeT8Du" role="1TKVEl">
       <property role="IQ2nx" value="9080050094054869598" />
@@ -308,6 +313,7 @@
   <node concept="1TIwiD" id="7S2OnfeT8DB">
     <property role="EcuMT" value="9080050094054869607" />
     <property role="TrG5h" value="Rule" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7S2OnfeT8DD" role="1TKVEl">
       <property role="IQ2nx" value="9080050094054869609" />

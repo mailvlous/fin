@@ -6,10 +6,8 @@ package com.lang.fin.sandbox;
 public class FinanceApp {
   public static void main(String[] args) {
     System.out.println("Welcome..");
-    System.out.println("MYAPP");
+    System.out.println("");
 
 
-    System.out.println("mail");
-    System.out.println("gilang");
   }
 }

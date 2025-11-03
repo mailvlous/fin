@@ -159,6 +159,10 @@
       <ref role="30HIoZ" to="b01t:7S2OnfeT8Ds" resolve="Report" />
       <ref role="3lhOvi" node="3pJXs4BWN7U" resolve="Report" />
     </node>
+    <node concept="3lhOvk" id="3pJXs4BYvyL" role="3lj3bC">
+      <ref role="30HIoZ" to="b01t:7S2OnfeT8D6" resolve="Budget" />
+      <ref role="3lhOvi" node="3pJXs4BVwgx" resolve="Budget" />
+    </node>
   </node>
   <node concept="bUwia" id="563DfIRFqyN">
     <property role="TrG5h" value="FinanceApp" />

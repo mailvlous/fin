@@ -21,6 +21,58 @@
       <unit id="2521324003966619678" at="6,0,14,0" name="com.lang.fin.sandbox.FinanceApp" />
     </file>
   </root>
+  <root nodeRef="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox)/3922624010411079328">
+    <file name="Account.java">
+      <node id="3922624010411079328" at="7,0,8,0" concept="2" trace="accountID" />
+      <node id="3922624010411079328" at="8,0,9,0" concept="2" trace="nama" />
+      <node id="3922624010411079328" at="9,0,10,0" concept="2" trace="initialBalance" />
+      <node id="3922624010411079328" at="10,0,11,0" concept="2" trace="balance" />
+      <node id="3922624010411079328" at="12,66,13,31" concept="1" />
+      <node id="3922624010411079328" at="13,31,14,21" concept="1" />
+      <node id="3922624010411079328" at="14,21,15,41" concept="1" />
+      <node id="3922624010411079328" at="15,41,16,34" concept="1" />
+      <node id="3922624010411079328" at="19,35,20,22" concept="1" />
+      <node id="3922624010411079328" at="23,36,24,22" concept="1" />
+      <node id="3922624010411079328" at="27,29,28,21" concept="4" />
+      <node id="3922624010411079328" at="19,0,22,0" concept="3" trace="deposit#(I)V" />
+      <node id="3922624010411079328" at="23,0,26,0" concept="3" trace="withdraw#(I)V" />
+      <node id="3922624010411079328" at="27,0,30,0" concept="3" trace="getAccountID#()I" />
+      <node id="3922624010411079328" at="12,0,18,0" concept="0" trace="Account#(ILjava/lang/String;I)V" />
+      <scope id="3922624010411079328" at="19,35,20,22" />
+      <scope id="3922624010411079328" at="23,36,24,22" />
+      <scope id="3922624010411079328" at="27,29,28,21" />
+      <scope id="3922624010411079328" at="19,0,22,0">
+        <var name="amount" id="3922624010411079328" />
+      </scope>
+      <scope id="3922624010411079328" at="23,0,26,0">
+        <var name="amount" id="3922624010411079328" />
+      </scope>
+      <scope id="3922624010411079328" at="27,0,30,0" />
+      <scope id="3922624010411079328" at="12,66,16,34" />
+      <scope id="3922624010411079328" at="12,0,18,0">
+        <var name="accountID" id="3922624010411079328" />
+        <var name="initialBalance" id="3922624010411079328" />
+        <var name="nama" id="3922624010411079328" />
+      </scope>
+      <unit id="3922624010411079328" at="6,0,33,0" name="com.lang.fin.sandbox.Account" />
+    </file>
+  </root>
+  <root nodeRef="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox)/3922624010411081868">
+    <file name="Budget.java">
+      <node id="3922624010411081868" at="7,0,8,0" concept="2" trace="amount" />
+      <node id="3922624010411081868" at="8,0,9,0" concept="2" trace="category" />
+      <node id="3922624010411081868" at="10,48,11,25" concept="1" />
+      <node id="3922624010411081868" at="11,25,12,29" concept="1" />
+      <node id="3922624010411081868" at="12,29,13,0" concept="5" />
+      <node id="3922624010411081868" at="10,0,15,0" concept="0" trace="Budget#(I)V" />
+      <scope id="3922624010411081868" at="10,48,13,0" />
+      <scope id="3922624010411081868" at="10,0,15,0">
+        <var name="amount" id="3922624010411081868" />
+        <var name="category" id="3922624010411081868" />
+      </scope>
+      <unit id="3922624010411081868" at="6,0,16,0" name="com.lang.fin.sandbox.Budget" />
+    </file>
+  </root>
   <root nodeRef="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox)/9080050094055631351">
     <file name="Account.java">
       <node id="1468116104102948498" at="7,0,8,0" concept="2" trace="accountID" />

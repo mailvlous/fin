@@ -92,7 +92,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForBudget() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Budget", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a46L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869574");
     b.version(3);
     b.property("amount", 0x7e02d173cee48a48L).type(PrimitiveTypeId.INTEGER).origin("9080050094054869576").done();
@@ -102,7 +102,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForCategory() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Category", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a2fL);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869551");
     b.version(3);
     b.property("nama", 0x7e02d173cee48a31L).type(PrimitiveTypeId.STRING).origin("9080050094054869553").done();
@@ -127,7 +127,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForGoal() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Goal", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a4fL);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869583");
     b.version(3);
     b.property("targetAmount", 0x7e02d173cee48a51L).type(PrimitiveTypeId.INTEGER).origin("9080050094054869585").done();
@@ -137,7 +137,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForReport() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Report", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a5cL);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869596");
     b.version(3);
     b.property("type", 0x7e02d173cee48a5eL).type(MetaIdFactory.dataTypeId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a1bL)).origin("9080050094054869598").done();
@@ -147,7 +147,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForRule() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Rule", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a67L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869607");
     b.version(3);
     b.property("condition", 0x7e02d173cee48a69L).type(PrimitiveTypeId.STRING).origin("9080050094054869609").done();
@@ -158,7 +158,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   }
   private static ConceptDescriptor createDescriptorForTransaction() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "Transaction", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a32L);
-    b.class_(false, false, false);
+    b.class_(false, false, true);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869554");
     b.version(3);
     b.property("type", 0x7e02d173cee48a35L).type(MetaIdFactory.dataTypeId(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a0bL)).origin("9080050094054869557").done();

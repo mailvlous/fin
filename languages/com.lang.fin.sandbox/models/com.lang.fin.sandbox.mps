@@ -9,6 +9,10 @@
   </imports>
   <registry>
     <language id="d98c5833-88c3-4391-9525-d7b106fd1bcb" name="com.lang.fin">
+      <concept id="9080050094054869574" name="com.lang.fin.structure.Budget" flags="ng" index="2KT_GP">
+        <property id="9080050094054869577" name="period" index="2KT_GU" />
+        <property id="9080050094054869576" name="amount" index="2KT_GV" />
+      </concept>
       <concept id="9080050094054869539" name="com.lang.fin.structure.Account" flags="ng" index="2KT_Hg">
         <property id="9080050094054869541" name="accountID" index="2KT_Hm" />
         <property id="9080050094054869547" name="initialBalance" index="2KT_Ho" />
@@ -43,5 +47,15 @@
     </node>
   </node>
   <node concept="3YsAkr" id="2bXyHaO690u" />
+  <node concept="2KT_Hg" id="3pJXs4BY7qw">
+    <property role="2KT_Hm" value="2" />
+    <property role="2KT_Hq" value="Mail" />
+    <property role="2KT_Ho" value="0" />
+    <property role="2KT_Hp" value="89999" />
+  </node>
+  <node concept="2KT_GP" id="3pJXs4BY82c">
+    <property role="2KT_GV" value="2000" />
+    <property role="2KT_GU" value="7S2OnfeT8Ck/DAILY" />
+  </node>
 </model>
 
