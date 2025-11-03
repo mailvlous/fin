@@ -37,6 +37,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   @Override
   public void reportDependencies(jetbrains.mps.smodel.runtime.StructureAspectDescriptor.Dependencies deps) {
     deps.extendedLanguage(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, "jetbrains.mps.lang.core");
+    deps.extendedLanguage(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, "jetbrains.mps.execution.util");
   }
 
   @Override
@@ -111,6 +112,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("com.lang.fin", "FinanceApp", 0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0xb57903fec71c18L);
     b.class_(false, false, true);
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
+    b.parent(0x4caf0310491e41f5L, 0x8a9b2006b3a94898L, 0x40c1a7cb987d20d5L);
     b.origin("r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/51080028850953240");
     b.version(3);
     b.property("appName", 0x7e02d173cee7fc7fL).type(PrimitiveTypeId.STRING).origin("9080050094055095423").done();
