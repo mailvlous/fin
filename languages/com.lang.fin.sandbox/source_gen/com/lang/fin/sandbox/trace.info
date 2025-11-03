@@ -12,59 +12,95 @@
       <node id="2521324003966619678" at="7,42,8,36" concept="1" />
       <node id="2521324003966619678" at="8,36,9,27" concept="1" />
       <node id="2521324003966619678" at="9,27,10,0" concept="5" />
-      <node id="2521324003966619678" at="7,0,12,0" concept="6" trace="main#([Ljava/lang/String;)V" />
-      <scope id="2521324003966619678" at="7,42,10,0" />
-      <scope id="2521324003966619678" at="7,0,12,0">
+      <node id="2521324003966619678" at="10,0,11,0" concept="5" />
+      <node id="2521324003966619678" at="7,0,13,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <scope id="2521324003966619678" at="7,42,11,0" />
+      <scope id="2521324003966619678" at="7,0,13,0">
         <var name="args" id="2521324003966619678" />
       </scope>
-      <unit id="2521324003966619678" at="6,0,13,0" name="com.lang.fin.sandbox.FinanceApp" />
+      <unit id="2521324003966619678" at="6,0,14,0" name="com.lang.fin.sandbox.FinanceApp" />
     </file>
   </root>
   <root nodeRef="r:44a57395-5984-4cf5-a1cb-ff0f60f270a7(com.lang.fin.sandbox)/9080050094055631351">
     <file name="Account.java">
+      <node id="1468116104102948498" at="7,0,8,0" concept="2" trace="accountID" />
       <node id="9080050094055631352" at="7,0,8,0" concept="2" trace="accountID" />
+      <node id="1468116104102948498" at="8,0,9,0" concept="2" trace="nama" />
       <node id="9080050094055631352" at="8,0,9,0" concept="2" trace="nama" />
+      <node id="1468116104102948498" at="9,0,10,0" concept="2" trace="initialBalance" />
       <node id="9080050094055631352" at="9,0,10,0" concept="2" trace="initialBalance" />
+      <node id="1468116104102948498" at="10,0,11,0" concept="2" trace="balance" />
       <node id="9080050094055631352" at="10,0,11,0" concept="2" trace="balance" />
+      <node id="1468116104102948498" at="12,66,13,31" concept="1" />
       <node id="9080050094055631352" at="12,66,13,31" concept="1" />
+      <node id="1468116104102948498" at="13,31,14,21" concept="1" />
       <node id="9080050094055631352" at="13,31,14,21" concept="1" />
+      <node id="1468116104102948498" at="14,21,15,41" concept="1" />
       <node id="9080050094055631352" at="14,21,15,41" concept="1" />
+      <node id="1468116104102948498" at="15,41,16,34" concept="1" />
       <node id="9080050094055631352" at="15,41,16,34" concept="1" />
+      <node id="1468116104102948498" at="19,35,20,22" concept="1" />
       <node id="9080050094055631352" at="19,35,20,22" concept="1" />
+      <node id="1468116104102948498" at="23,36,24,22" concept="1" />
       <node id="9080050094055631352" at="23,36,24,22" concept="1" />
+      <node id="1468116104102948498" at="27,29,28,21" concept="4" />
       <node id="9080050094055631352" at="27,29,28,21" concept="4" />
+      <node id="1468116104102948498" at="19,0,22,0" concept="3" trace="deposit#(I)V" />
       <node id="9080050094055631352" at="19,0,22,0" concept="3" trace="deposit#(I)V" />
+      <node id="1468116104102948498" at="23,0,26,0" concept="3" trace="withdraw#(I)V" />
       <node id="9080050094055631352" at="23,0,26,0" concept="3" trace="withdraw#(I)V" />
+      <node id="1468116104102948498" at="27,0,30,0" concept="3" trace="getAccountID#()I" />
       <node id="9080050094055631352" at="27,0,30,0" concept="3" trace="getAccountID#()I" />
+      <node id="1468116104102948498" at="12,0,18,0" concept="0" trace="Account#(ILjava/lang/String;I)V" />
       <node id="9080050094055631352" at="12,0,18,0" concept="0" trace="Account#(ILjava/lang/String;I)V" />
+      <scope id="1468116104102948498" at="19,35,20,22" />
       <scope id="9080050094055631352" at="19,35,20,22" />
+      <scope id="1468116104102948498" at="23,36,24,22" />
       <scope id="9080050094055631352" at="23,36,24,22" />
+      <scope id="1468116104102948498" at="27,29,28,21" />
       <scope id="9080050094055631352" at="27,29,28,21" />
+      <scope id="1468116104102948498" at="19,0,22,0">
+        <var name="amount" id="1468116104102948498" />
+      </scope>
       <scope id="9080050094055631352" at="19,0,22,0">
         <var name="amount" id="9080050094055631352" />
+      </scope>
+      <scope id="1468116104102948498" at="23,0,26,0">
+        <var name="amount" id="1468116104102948498" />
       </scope>
       <scope id="9080050094055631352" at="23,0,26,0">
         <var name="amount" id="9080050094055631352" />
       </scope>
+      <scope id="1468116104102948498" at="27,0,30,0" />
       <scope id="9080050094055631352" at="27,0,30,0" />
+      <scope id="1468116104102948498" at="12,66,16,34" />
       <scope id="9080050094055631352" at="12,66,16,34" />
+      <scope id="1468116104102948498" at="12,0,18,0">
+        <var name="accountID" id="1468116104102948498" />
+        <var name="initialBalance" id="1468116104102948498" />
+        <var name="nama" id="1468116104102948498" />
+      </scope>
       <scope id="9080050094055631352" at="12,0,18,0">
         <var name="accountID" id="9080050094055631352" />
         <var name="initialBalance" id="9080050094055631352" />
         <var name="nama" id="9080050094055631352" />
       </scope>
+      <unit id="1468116104102948498" at="6,0,33,0" name="com.lang.fin.sandbox.Account" />
       <unit id="9080050094055631352" at="6,0,33,0" name="com.lang.fin.sandbox.Account" />
     </file>
     <file name="FinanceApp.java">
       <node id="9080050094055631351" at="7,42,8,36" concept="1" />
       <node id="9080050094055631351" at="8,36,9,32" concept="1" />
       <node id="9080050094055631351" at="9,32,10,0" concept="5" />
-      <node id="9080050094055631351" at="7,0,12,0" concept="6" trace="main#([Ljava/lang/String;)V" />
-      <scope id="9080050094055631351" at="7,42,10,0" />
-      <scope id="9080050094055631351" at="7,0,12,0">
+      <node id="9080050094055631351" at="10,0,11,0" concept="5" />
+      <node id="9080050094055631352" at="11,0,12,31" concept="1" />
+      <node id="1468116104102948498" at="12,31,13,33" concept="1" />
+      <node id="9080050094055631351" at="7,0,15,0" concept="6" trace="main#([Ljava/lang/String;)V" />
+      <scope id="9080050094055631351" at="7,42,13,33" />
+      <scope id="9080050094055631351" at="7,0,15,0">
         <var name="args" id="9080050094055631351" />
       </scope>
-      <unit id="9080050094055631351" at="6,0,13,0" name="com.lang.fin.sandbox.FinanceApp" />
+      <unit id="9080050094055631351" at="6,0,16,0" name="com.lang.fin.sandbox.FinanceApp" />
     </file>
   </root>
 </debug-info>

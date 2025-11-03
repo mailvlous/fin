@@ -1522,7 +1522,7 @@
             <uo k="s:originTrace" v="n:9080050094054869515" />
           </node>
           <node concept="Xl_RD" id="76" role="37wK5m">
-            <property role="Xl_RC" value="INCOME" />
+            <property role="Xl_RC" value="Income" />
             <uo k="s:originTrace" v="n:9080050094054869515" />
           </node>
           <node concept="11gdke" id="77" role="37wK5m">
@@ -1557,7 +1557,7 @@
             <uo k="s:originTrace" v="n:9080050094054869515" />
           </node>
           <node concept="Xl_RD" id="7e" role="37wK5m">
-            <property role="Xl_RC" value="EXPENSE" />
+            <property role="Xl_RC" value="Expense" />
             <uo k="s:originTrace" v="n:9080050094054869515" />
           </node>
           <node concept="11gdke" id="7f" role="37wK5m">

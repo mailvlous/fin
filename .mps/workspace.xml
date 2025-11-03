@@ -5,38 +5,38 @@
       <change beforePath="$PROJECT_DIR$/.mps/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.mps/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/classes_gen/com/lang/fin/sandbox/FinanceApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/classes_gen/com/lang/fin/sandbox/FinanceApp.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/classes_gen/com/lang/fin/sandbox/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/classes_gen/com/lang/fin/sandbox/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/com.lang.fin.sandbox.msd" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/com.lang.fin.sandbox.msd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/models/com.lang.fin.sandbox.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/models/com.lang.fin.sandbox.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen.caches/com/lang/fin/sandbox/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen.caches/com/lang/fin/sandbox/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen.caches/com/lang/fin/sandbox/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen.caches/com/lang/fin/sandbox/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen/com/lang/fin/sandbox/FinanceApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen/com/lang/fin/sandbox/FinanceApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen/com/lang/fin/sandbox/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin.sandbox/source_gen/com/lang/fin/sandbox/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/Language.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/Language.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/structure/StructureAspectDescriptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/structure/StructureAspectDescriptor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/com.lang.fin.mpl" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/com.lang.fin.mpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$CONCEPTS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$CONCEPTS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$LINKS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$LINKS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$accountsListHandler_f3e1k2_b1a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$accountsListHandler_f3e1k2_b1a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$categoriesListHandler_f3e1k2_b2a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a$categoriesListHandler_f3e1k2_b2a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/classes_gen/com/lang/fin/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/Generator.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/Generator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/QueriesGenerated$PROPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/QueriesGenerated$PROPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/QueriesGenerated$PVQ.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/QueriesGenerated$PVQ.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/QueriesGenerated.class" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/QueriesGenerated.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/templates/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/classes_gen/com/lang/fin/generator/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/com/lang/fin/generator/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/com/lang/fin/generator/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/com/lang/fin/generator/templates/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/com/lang/fin/generator/templates/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/com/lang/fin/generator/templates/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/com/lang/fin/generator/templates/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen.caches/deps.cp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen/com/lang/fin/generator/templates/QueriesGenerated.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen/com/lang/fin/generator/templates/QueriesGenerated.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen/com/lang/fin/generator/templates/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/source_gen/com/lang/fin/generator/templates/trace.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/generator/templates/com.lang.fin.generator.templates@generator.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/generator/templates/com.lang.fin.generator.templates@generator.mps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/models/com.lang.fin.editor.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/models/com.lang.fin.editor.mps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/models/com.lang.fin.structure.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/models/com.lang.fin.structure.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/editor/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/editor/dependencies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/editor/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/editor/generated" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/structure/dependencies" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/structure/dependencies" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/structure/generated" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/com/lang/fin/structure/generated" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/deps.cp" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen.caches/deps.cp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/Language.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/StructureAspectDescriptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/StructureAspectDescriptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/editor/FinanceApp_EditorBuilder_a.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/editor/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/editor/trace.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/EnumerationDescriptor_IncomeExpenseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/EnumerationDescriptor_IncomeExpenseType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/aspectcps-descriptorclasses.mps" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/aspectcps-descriptorclasses.mps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/structure/trace.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/trace.info" beforeDir="false" afterPath="$PROJECT_DIR$/languages/com.lang.fin/source_gen/com/lang/fin/trace.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="3dbcd6bb-8865-45a7-b980-e7c7803ab9d3/r:e72ccc04-d8f7-49ea-bc2c-b3f125d0f0e2(TempModule3dbcd6bb-8865-45a7-b980-e7c7803ab9d3/ConsoleModel_435513246165100)">
+            <model ref="12def18e-4464-4ea4-92e8-e61d1f93dc73/r:e5251e07-4473-42d5-b506-1073f3f78946(TempModule12def18e-4464-4ea4-92e8-e61d1f93dc73/ConsoleModel_461886276207000)">
               <persistence version="9" />
               <languages>
                 <devkit ref="70d3d6da-af63-483d-a75f-9c8acf8de332(jetbrains.mps.console.devkit)" />
@@ -69,11 +69,11 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="2bXyHaO68I9">
-                <node concept="3balQm" id="2bXyHaO68Ia" role="aymYE" />
-                <node concept="2Clz$F" id="2bXyHaO68Ib" role="aymYO" />
-                <node concept="2_V_lH" id="2bXyHaO68Ic" role="1PhJh3">
-                  <ref role="2_V_lI" node="2bXyHaO68Ib" />
+              <node concept="aymSD" id="3pJXs4BUHlB">
+                <node concept="3balQm" id="3pJXs4BUHlC" role="aymYE" />
+                <node concept="2Clz$F" id="3pJXs4BUHlD" role="aymYO" />
+                <node concept="2_V_lH" id="3pJXs4BUHlE" role="1PhJh3">
+                  <ref role="2_V_lI" node="3pJXs4BUHlD" />
                 </node>
               </node>
             </model>
@@ -392,6 +392,26 @@
                       </presentation>
                       <presentation>
                         <attributes />
+                        <data isLeaf="true" text="Budget" />
+                        <item name="Budget" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Budget" />
+                        <item name="Budget" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Category" />
+                        <item name="Category" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Category" />
+                        <item name="Category" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
                         <data isLeaf="true" text="FinanceApp" />
                         <item name="FinanceApp" type="dedc1bdc:SimpleNodeProjectViewNode" />
                       </presentation>
@@ -399,11 +419,46 @@
                         <attributes />
                         <data isLeaf="true" text="FinanceApp" />
                         <item name="FinanceApp" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Goal" />
+                        <item name="Goal" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Goal" />
+                        <item name="Goal" type="dedc1bdc:SimpleNodeProjectViewNode" />
                       </presentation>
                       <presentation>
                         <attributes />
                         <data isLeaf="true" text="main" />
                         <item name="main" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Report" />
+                        <item name="Report" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Report" />
+                        <item name="Report" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Rule" />
+                        <item name="Rule" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Transaction" />
+                        <item name="Transaction" type="dedc1bdc:SimpleNodeProjectViewNode" />
+                      </presentation>
+                      <presentation>
+                        <attributes />
+                        <data isLeaf="true" text="Transaction" />
+                        <item name="Transaction" type="dedc1bdc:SimpleNodeProjectViewNode" />
                       </presentation>
                     </presentation>
                   </presentation>
@@ -431,8 +486,8 @@
               </presentation>
               <presentation>
                 <attributes />
-                <data iconPath="expUi/nodes/transient.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin.sandbox@transient4" />
-                <item name="com.lang.fin.sandbox@transient4 [transient models module]" type="da8cad93:TopHierarchyProjectViewNode$TransientModuleProjectViewNode" />
+                <data iconPath="expUi/nodes/transient.svg" iconPlugin="com.intellij" isLeaf="false" text="com.lang.fin.sandbox@transient2" />
+                <item name="com.lang.fin.sandbox@transient2 [transient models module]" type="da8cad93:TopHierarchyProjectViewNode$TransientModuleProjectViewNode" />
               </presentation>
             </presentation>
           </presentation>
@@ -620,17 +675,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit Tests.Tests in 'fin.sandbox'.executor": "Run",
-    "Java Application.Node mail.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit Tests.Tests in 'fin.sandbox'.executor&quot;: &quot;Run&quot;,
+    &quot;Java Application.Node mail.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Java Application.Node mail">
     <configuration name="Tests in 'fin.generator'" type="JUnit Tests" factoryName="JUnit Tests" temporary="true">
       <myJUnitSettings>

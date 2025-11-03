@@ -35,6 +35,12 @@
       <property role="2KT_Ho" value="0" />
       <property role="2KT_Hp" value="9000000" />
     </node>
+    <node concept="2KT_Hg" id="1hvMX5U5yUi" role="2KTiOu">
+      <property role="2KT_Hm" value="3" />
+      <property role="2KT_Hq" value="gilang" />
+      <property role="2KT_Ho" value="0" />
+      <property role="2KT_Hp" value="0" />
+    </node>
   </node>
   <node concept="3YsAkr" id="2bXyHaO690u" />
 </model>

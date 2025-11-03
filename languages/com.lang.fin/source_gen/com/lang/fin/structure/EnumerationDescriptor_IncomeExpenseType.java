@@ -15,8 +15,8 @@ public class EnumerationDescriptor_IncomeExpenseType extends EnumerationDescript
     super(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a0bL, "IncomeExpenseType", "r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869515");
   }
 
-  private final EnumerationDescriptor.MemberDescriptor myMember_INCOME_0 = new EnumerationDescriptor.MemberDescriptor("INCOME", "INCOME", 0x7e02d173cee48a0cL, "r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869516");
-  private final EnumerationDescriptor.MemberDescriptor myMember_EXPENSE_0 = new EnumerationDescriptor.MemberDescriptor("EXPENSE", "EXPENSE", 0x7e02d173cee48a11L, "r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869521");
+  private final EnumerationDescriptor.MemberDescriptor myMember_INCOME_0 = new EnumerationDescriptor.MemberDescriptor("INCOME", "Income", 0x7e02d173cee48a0cL, "r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869516");
+  private final EnumerationDescriptor.MemberDescriptor myMember_EXPENSE_0 = new EnumerationDescriptor.MemberDescriptor("EXPENSE", "Expense", 0x7e02d173cee48a11L, "r:b0979f79-2caf-4584-b7c0-a2ec92218010(com.lang.fin.structure)/9080050094054869521");
 
   private final EnumerationLiteralsIndex myIndex = EnumerationLiteralsIndex.build(0xd98c583388c34391L, 0x9525d7b106fd1bcbL, 0x7e02d173cee48a0bL, 0x7e02d173cee48a0cL, 0x7e02d173cee48a11L);
   private final List<EnumerationDescriptor.MemberDescriptor> myMembers = new EnumerationDescriptorBase.MembersList0(myIndex, myMember_INCOME_0, myMember_EXPENSE_0);
